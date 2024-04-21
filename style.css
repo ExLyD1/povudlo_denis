@@ -385,3 +385,169 @@ header{
     text-align: center;
   }
 }
+/* SECTION 55555 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.back3{
+  width: 100%;
+  background-color: #D3B288;
+}
+.footer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.data{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  gap: 30px;
+}
+.data p{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.dashed{
+  border-bottom: 1px dashed white;
+}
+
+.fotHref{
+  background-color: white;
+  text-align: center;
+  margin-left: 25px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.fotHref a{
+  text-decoration: none;
+  color: #D3B288;
+}
+.fotHolder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  padding-top: 30px;  
+  gap:20px;
+}
+.linksHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+}
+.links h1{
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.links p{
+  font-size: 14px;
+  color: white;
+  padding-bottom: 20px;
+}
+.schedule{
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheduleInfo{
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
+.scheduleInfo h1{
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.days{
+  padding-bottom: 15px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.days p{
+  font-size: 14px;
+  color: white;
+}
+.weekend{
+  border-top: 1px solid white;
+  padding-top: 20px;
+}
+.weekend p{
+  font-size: 14px;
+  color: white;
+}
+.license{
+  width: 100%;
+  background-color: white;
+}
+.licenseHolder{
+  margin: auto;
+  width: 80%;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.all{
+  font-size: 14px;
+  color: #333333;
+}
+.dashed2{
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 1px dashed #333333;
+}
+.denru{
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+@media screen and (max-width:1100px) {
+  .linksHolder{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .links{
+    width: 40%;
+  }
+}
+@media screen and (max-width:768px) {
+  .data{
+    flex-wrap: wrap;
+  }
+  .number{
+    width: 40%;
+  }
+  .adress{
+    width: 100%;
+  }
+  .schedule{
+    height: auto;
+  }
+  .fotHref{
+    align-items: center;
+    justify-content: center;
+  }
+}
