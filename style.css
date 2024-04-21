@@ -2,6 +2,16 @@
   margin:0px;
   padding:0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+.container{
+  margin: auto;
+  margin-top: 150px;
+  width:80%;
+}
+.back1{
+  margin:auto;
+  width:100%;
 }
 header{
   width: 100%;
@@ -113,6 +123,7 @@ header{
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
+  text-transform: uppercase;
 }
 @media screen and (max-width:1490px) {
   .headerItemsHolder div{
@@ -160,5 +171,217 @@ header{
     width:70%;
     margin: auto;
   }
-
+}
+/* SECTION 22222 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.centerHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.centerInfoHolder{
+  width: 40%;
+}
+.centerInfoHolder h1{
+  font-size: 36px;
+  color: #D3B288;
+}
+.centerInfoHolder p {
+  font-size: 16px;
+  color: #333333;
+  padding-top: 40px;
+}
+@media screen  and (max-width:930px){
+  .centerHolder{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .centerInfoHolder{
+    width: 70%;
+  }
+}
+@media screen and (max-width:500px){
+  .centerImgHolder img{
+    width:100%;
+  }
+}
+/* SECTION 33333 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.consHolder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.sectTitle h1{
+  font-size: 36px;
+  color: #D3B288;
+}
+.sectTitle p{
+  font-size: 14px;
+  color: #333333;
+  padding-top: 40px;
+}
+.consInfos{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.consItemsHolder{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.consItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.consItem p{
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+  font-weight: 500;
+}
+@media screen and (max-width:950px) {
+  .consHolder{
+    flex-wrap: wrap;
+  }
+  .sectTitle {
+    text-align: center;
+  }
+  .sectTitle{
+    width: 100%;
+  }
+  .consInfos{
+    width: 100%;
+  }
+}
+@media screen and (max-width:425px) {
+  .consItem p{
+    font-size: 12px;
+  }
+  .consImgHolder img {
+    width: 100%;
+  }
+  .consInfos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+/* SECTION 44444 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.back2{
+  width:100%;
+  background-color: #e4dcd1;
+  padding: 70px 0px 70px 0px
+}
+.procFullHolder{
+  width:80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.procH1{
+  color: #333333 !important;
+}
+.cardsHolder{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.card{
+  height: 20vh;
+  width: 10vw;
+  background-color: #D3B288;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBorder{
+  height: 85%;
+  width: 85%;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBorder p{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+@media screen and (max-width:1210px) {
+  .procFullHolder{
+    flex-wrap: wrap;
+  }
+  .sectTitle{
+    width: 100%;
+    text-align: center;
+  }
+  .cardsHolder{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 30%;
+  }
+  .cardsHolder{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width:670px) {
+  .cardsHolder{
+    justify-content: space-between;
+  }
+  .card{
+    width: 40%;
+  }
+}
+@media screen and (max-width:470px) {
+  .cardBorder p{
+    font-size: 11px;
+  }
+}
+/* SECTION 55555 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.wrapperTitle{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.wrapperTitle h1{
+  color: #D3B288;
+  font-size: 36px;
+}
+.wrapperTitle div img{
+  cursor: pointer;
+}
+.swiper-container{
+  overflow-x: hidden;
+}
+@media screen and (max-width:590px) {
+  .wrapperTitle{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .wrapperTitle h1{
+    text-align: center;
+  }
 }
