@@ -528,6 +528,7 @@ header{
   .linksHolder{
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* gap: 30px; */
   }
   .links{
     width: 40%;
@@ -536,6 +537,8 @@ header{
 @media screen and (max-width:768px) {
   .data{
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .number{
     width: 40%;
@@ -545,9 +548,28 @@ header{
   }
   .schedule{
     height: auto;
+
+  }
+  .scheduleInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .fotHref{
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width:568px) {
+  .fotHolder{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .schedule{
+    width: 100%;
+  }
+  .scheduleInfo{
+    padding:20px;
   }
 }
